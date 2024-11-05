@@ -6,7 +6,7 @@ height = float(input("Enter your height in meters: "))
 
 imc = calculate_imc(weight, height)
 
-print(f"Your IMC is: {calculate_imc(weight, height):.2f}")
+print(f"Your IMC is: {imc:.2f}")
 
 if imc < 18.5:
     print("You are underweight.")
