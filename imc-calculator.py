@@ -4,6 +4,8 @@ def calculate_imc(height, weight):
 weight = float(input("Enter your weight in kilograms: "))
 height = float(input("Enter your height in meters: "))
 
+imc = calculate_imc(weight, height)
+
 print(f"Your IMC is: {calculate_imc(weight, height):.2f}")
 
 if imc < 18.5:
